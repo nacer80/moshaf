@@ -1,0 +1,37 @@
+# ===== لا يُرفَع إلى Git =====
+# صور الاختبارات التي يولّدها متصفّح التطوير (٤٦ ميجابايت) — ليست جزءاً من التطبيق
+screenshots/
+out_*.txt
+
+# نسخة «الملف الواحد» الناتجة عن build_standalone.py — تُنشَر في Releases لا في المستودع
+quran-mushaf-standalone.html
+*.standalone.html
+
+# قواعد توقيت مُولَّدة من تصدير تطبيق خارجي (مرجّحة بحقوق ناشرها) — أعد توليدها بـ tools/
+samples/*-segments.db
+samples/*.db-journal
+
+# بيانات المستخدم: لا تُرفع أبداً (ملفات توقيت/نصوص شخصية، وأصوات كاملة)
+uploads/
+*.mp3
+*.m4a
+*.db
+*.sqlite
+*.sqlite3
+# …باستثناء العيّنة المولَّدة محلياً والتي تُعرض في التوثيق
+!samples/timings-sample.db
+
+# مخرجات وسيطة لـ tools/ وبيئة التطوير
+.dev/
+.cache/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# نظم التشغيل والمحرّرات
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*~

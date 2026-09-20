@@ -1,0 +1,20 @@
+# سطور LF في المستودع، وتحويل تلقائي عند الاقتضاء
+* text=auto eol=lf
+*.py text eol=lf
+
+# ملفات ثنائية لا يُفيد فيها diff
+*.woff2 binary
+*.wasm binary
+*.db binary
+*.png binary
+*.mp3 binary
+
+# بيانات مولَّدة/مستورَدة: تُخفى من إحصاء اللغات ومن توسيط الـ diff
+assets/Madina05-*.json linguist-generated
+assets/layout-1439.json linguist-generated
+assets/tajweed.json linguist-generated
+assets/warsh.json linguist-generated
+assets/ayah-markers.json linguist-generated
+assets/sql-wasm.js linguist-vendored
+assets/sql-wasm.wasm linguist-vendored
+*.json diff=json
