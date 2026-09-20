@@ -1,0 +1,21 @@
+/* خطوط المصحف — تحميل محلي (لا إنترنت) */
+@font-face{
+  font-family:'Hafs';
+  src:url('Hafs.woff2') format('woff2');
+  font-weight:normal;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Uthman';
+  src:url('UthmanTN_v2-0.woff2') format('woff2');
+  font-weight:normal;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Amiri Quran';
+  src:url('AmiriQuran.woff2') format('woff2');
+  font-weight:normal;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:'Amiri Quran Colored';
+  src:url('AmiriQuranColored.woff2') format('woff2');
+  font-weight:normal;font-style:normal;font-display:swap;
+}
